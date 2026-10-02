@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Insight Dashboard</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="page-shell">
+            <header class="topbar">
+                <div class="brand" aria-label="Brand logo">
+                    <div class="brand-mark">I</div>
+                    <div class="brand-copy">
+                        <span class="brand-name">Insight</span>
+                        <small>Dashboard</small>
+                    </div>
+                </div>
+
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="#" class="active">Overview</a>
+                    <a href="#">Analytics</a>
+                    <a href="#">Services</a>
+                    <a href="#">Reports</a>
+                    <a href="#">Settings</a>
+                </nav>
+
+                <div class="top-actions">
+                    <button class="btn btn-secondary">Export</button>
+                    <button class="btn btn-primary">New Report</button>
+                </div>
+            </header>
+
+            <main class="dashboard">
+                <section class="hero">
+                    <div class="hero-copy">
+                        <p class="eyebrow">Performance overview</p>
+                        <h1>Business health is trending upward.</h1>
+                    </div>
+                    <div class="hero-badge">
+                        <span class="dot"></span>
+                        +18.4% this month
+                    </div>
+                </section>
+
+                <section class="service">
+                    <div class="section-title-row">
+                        <h2>Core services</h2>
+                        <a href="#">View all</a>
+                    </div>
+
+                    <div class="service-grid">
+                        <article class="service-card accent-blue">
+                            <div class="icon-wrap">◌</div>
+                            <div>
+                                <span class="label">Marketing</span>
+                                <strong>12 campaigns</strong>
+                            </div>
+                            <p>+24% engagement</p>
+                        </article>
+
+                        <article class="service-card accent-violet">
+                            <div class="icon-wrap">◎</div>
+                            <div>
+                                <span class="label">Operations</span>
+                                <strong>84 workflows</strong>
+                            </div>
+                            <p>+9% efficiency</p>
+                        </article>
+
+                        <article class="service-card accent-green">
+                            <div class="icon-wrap">▣</div>
+                            <div>
+                                <span class="label">Finance</span>
+                                <strong>$184k revenue</strong>
+                            </div>
+                            <p>+12% month-over-month</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="metrics">
+                    <div class="metric-card">
+                        <div class="metric-top">
+                            <span>Total revenue</span>
+                            <span class="trend positive">+12.8%</span>
+                        </div>
+                        <strong>$482,940</strong>
+                        <small>Compared to last month</small>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-top">
+                            <span>Active users</span>
+                            <span class="trend positive">+8.1%</span>
+                        </div>
+                        <strong>24,618</strong>
+                        <small>Across all platforms</small>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-top">
+                            <span>Conversion rate</span>
+                            <span class="trend negative">-1.2%</span>
+                        </div>
+                        <strong>4.87%</strong>
+                        <small>Needs improvement</small>
+                    </div>
+                </section>
+
+                <section class="insights">
+                    <div class="panel chart-panel">
+                        <div class="section-title-row">
+                            <h2>Traffic overview</h2>
+                            <span class="meta-tag">Last 30 days</span>
+                        </div>
+
+                        <div class="chart-bars" aria-label="Traffic chart">
+                            <span style="--h: 38%"></span>
+                            <span style="--h: 52%"></span>
+                            <span style="--h: 46%"></span>
+                            <span style="--h: 68%"></span>
+                            <span style="--h: 74%"></span>
+                            <span style="--h: 60%"></span>
+                            <span style="--h: 88%"></span>
+                            <span style="--h: 79%"></span>
+                            <span style="--h: 95%"></span>
+                            <span style="--h: 82%"></span>
+                            <span style="--h: 100%"></span>
+                            <span style="--h: 90%"></span>
+                        </div>
+                    </div>
+
+                    <div class="panel activity-panel">
+                        <div class="section-title-row">
+                            <h2>Recent activity</h2>
+                            <a href="#">See all</a>
+                        </div>
+
+                        <ul class="activity-list">
+                            <li>
+                                <span class="status green"></span>
+                                <div>
+                                    <strong>Campaign launched</strong>
+                                    <small>Marketing team · 8 min ago</small>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="status blue"></span>
+                                <div>
+                                    <strong>Report generated</strong>
+                                    <small>Analytics · 1 hour ago</small>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="status amber"></span>
+                                <div>
+                                    <strong>Invoice approved</strong>
+                                    <small>Finance · 3 hours ago</small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
